@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - xPulse</title>
+    <link rel="icon" href="../assets/logos/xpulse.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<header>
+  <!-- Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid justify-content-between">
+      <!-- Left elements -->
+      <div class="d-flex" id="navbar-left">
+        <!-- Brand -->
+        <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="./index.html">
+          <img
+            src="./assets/logos/xpulsefi.png"
+            height="40"
+            alt="Logo"
+            loading="lazy"
+            style="margin-top: 2px;"
+          />
+        </a>
+
+        <!-- Search form -->
+        <form class="input-group w-auto my-auto d-none d-sm-flex">
+          <input
+            autocomplete="off"
+            type="search"
+            class="form-control rounded"
+            placeholder="Search"
+            style="min-width: 125px;"
+          />
+          <span class="input-group-text border-0 d-none d-lg-flex"
+            ><i class="fas fa-search"></i
+          ></span>
+        </form>
+      </div>
+    </div>
+    <!-- Left elements -->
+    
+    <!-- Right elements -->
+    <div class="container-fluid ">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/productos.html">Productos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    <ul class="navbar-nav flex-row">
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link d-sm-flex align-items-sm-center" href="./pages/login.html">
+          <img
+            src="./assets/logos/avatar-corredor.png"
+            class="rounded-circle"
+            height="22"
+            alt="Avatar"
+            loading="lazy"
+          />
+          <strong class="d-none d-sm-block ms-1 ">Login</strong>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+  
+    <!-- Right elements -->
+</nav>
+<!-- Navbar -->
+  <!-- Background image -->
+  <div
+    id="intro-example"
+    class="text-center bg-image"
+    style="background-image: url('./assets/img/header-xpulse.jpg')"
+  >
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.7); width: 100%; height: 100%;">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Nueva xPulse 200</h1>
+          <h5 class="mb-4">Te lleva a todos lados</h5>
+          <a
+            class="btn btn-outline-light btn-lg m-2"
+            href="./pages/productos.html"
+            role="button"
+            rel="nofollow"
+            target="_blank"
+          >Reservar ya</a
+          >
+          <a
+            class="btn btn-outline-light btn-lg m-2"
+            href="./pages/login.html"
+            target="_blank"
+            role="button"
+          >Ingresar con la cuenta</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+    </header>
+
+    <main class="my-5">
+
+      <h1 class="text-center">Productos</h1>
+      <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+              <div class="col mb-5">
+              <div class="card h-100">
+                <!-- Sale badge-->
+                <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                  <!-- Product image-->
+                  <img class="card-img-top" src="../assets/img/xPulse-Blanco.jpg" alt="xPulse Blanco" />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                      <div class="text-center">
+                          <!-- Product name-->
+                          <h5 class="fw-bolder">xPulse Blanco</h5>
+                          <!-- Product price-->
+                          $2650.00
+                      </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col mb-5">
+              <div class="card h-100">
+                  <!-- Sale badge-->
+                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                  <!-- Product image-->
+                  <img class="card-img-top" src="../assets/img/xPulse-Azul.jpg" alt="xPulse Azul" />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                      <div class="text-center">
+                          <!-- Product name-->
+                          <h5 class="fw-bolder">xPulse Azul</h5>
+                          <!-- Product price-->
+                          $2650
+                      </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col mb-5">
+              <div class="card h-100">
+                  <!-- Sale badge-->
+                  <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                  <!-- Product image-->
+                  <img class="card-img-top" src="../assets/img/xPulse-Negro.jpg" alt="..." />
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                      <div class="text-center">
+                          <!-- Product name-->
+                          <h5 class="fw-bolder">Sale Item</h5>
+                          <!-- Product price-->
+                          <span class="text-muted text-decoration-line-through">$2800</span>
+                          $2650
+                      </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                  </div>
+              </div>
+          </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Todos los derechos reservados:
+        <a class="text-dark" href="https://Coderhouse.com/">Coderhouse</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0eba5a4e34.js" crossorigin="anonymous"></script>
+</body>
+</html>
